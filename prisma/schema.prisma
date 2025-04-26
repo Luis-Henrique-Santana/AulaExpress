@@ -14,8 +14,21 @@ datasource db {
 }
 
 model User {
-  id       Int     @id @default(autoincrement())
-  email    String  @unique
-  name     String
-  password String
+  ID_user       Int     @id @default(autoincrement())
+  DS_email    String  @unique
+  NM_name     String
+  DS_password String
+  DS_plans Plans[]
+}
+model Plans {
+  ID_plans       Int     @id @default(autoincrement())
+  DS_objective    String
+  NM_name     String
+  DS_content String
+  DS_methodology String
+  DS_teaching_resources String
+  DS_assessment String
+  DS_expected_time String
+  ID_teacher Int 
+  teacher User @relation(fields: [ID_teacher], references: [ID_user])
 }

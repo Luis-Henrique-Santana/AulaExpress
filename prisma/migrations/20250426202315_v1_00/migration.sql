@@ -13,6 +13,7 @@ CREATE TABLE "Plans" (
     "ID_plans" SERIAL NOT NULL,
     "DS_objective" TEXT NOT NULL,
     "NM_name" TEXT NOT NULL,
+    "NM_class" TEXT NOT NULL,
     "DS_content" TEXT NOT NULL,
     "DS_methodology" TEXT NOT NULL,
     "DS_teaching_resources" TEXT NOT NULL,

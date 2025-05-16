@@ -23,6 +23,7 @@ model User {
 model Plans {
   ID_plans       Int     @id @default(autoincrement())
   DS_objective    String
+  NM_class  String
   NM_name     String
   DS_content String
   DS_methodology String

@@ -15,6 +15,7 @@ async function main() {
         {
           DS_objective:'teste1',
           NM_name:'teste1',
+          NM_class:'1anoteste',
           DS_content:'teste1',
           DS_methodology:'teste1',
           DS_teaching_resources: 'teste1',
@@ -24,6 +25,7 @@ async function main() {
         {
           DS_objective:'teste2',
           NM_name:'teste2',
+          NM_class:'1anoteste',
           DS_content:'teste2',
           DS_methodology:'teste2',
           DS_teaching_resources: 'teste2',
@@ -33,6 +35,7 @@ async function main() {
         {
           DS_objective:'teste3',
           NM_name:'teste3',
+          NM_class:'1anoteste',
           DS_content:'teste3',
           DS_methodology:'teste3',
           DS_teaching_resources: 'teste3',
@@ -51,6 +54,7 @@ async function main() {
         {
           DS_objective:'teste4',
           NM_name:'teste4',
+          NM_class:'2anoteste',
           DS_content:'teste4',
           DS_methodology:'teste4',
           DS_teaching_resources: 'teste4',
@@ -60,6 +64,7 @@ async function main() {
         {
           DS_objective:'teste5',
           NM_name:'teste5',
+          NM_class:'2anoteste',
           DS_content:'teste5',
           DS_methodology:'teste5',
           DS_teaching_resources: 'teste5',
@@ -69,6 +74,7 @@ async function main() {
         {
           DS_objective:'teste6',
           NM_name:'teste6',
+          NM_class:'2anoteste',
           DS_content:'teste6',
           DS_methodology:'teste6',
           DS_teaching_resources: 'teste6',

@@ -3,22 +3,18 @@ import List from "./list";
 export default function MiddleSection(){
     return(
         <section className="w-full h-[70%] bg-quaternary text-black flex justify-around items-center">
-            <List title="Aula Express" content="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, natus corrupti quia saepe ipsum officia. Iure quaerat molestiae corrupti adipisci." />
+            <List title="Aula Express" content="Aula Express é uma plataforma web desenvolvida para facilitar a criação e organização de planos de aula." />
             <List
             title="Entre em contato"
             content={[
                 {
-                    content: "contato@aulaexpress.com",
+                    content: "lhs3000t@gmail.com",
                     href: "#"
                 },
                 {
-                    content: '(11) 99999-9999',
+                    content: '(13) 98155-6145',
                     href: '#'
                 },
-                {
-                    content: 'Av. Aula Express, São paulo',
-                    href: "#"
-                }
             ]} 
             />
             <List
